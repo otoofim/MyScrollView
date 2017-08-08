@@ -39,19 +39,20 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKO-KG-Rnw">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="60" y="0.0" width="255" height="667"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="iKO-KG-Rnw" secondAttribute="trailing" id="0Z9-tR-yST"/>
+                            <constraint firstAttribute="trailing" secondItem="iKO-KG-Rnw" secondAttribute="trailing" constant="60" id="0Z9-tR-yST"/>
                             <constraint firstItem="NjY-Uh-DNL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Vb-eR-07K"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NjY-Uh-DNL" secondAttribute="bottom" id="Cea-bo-QFX"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aG6-aF-idN" secondAttribute="bottom" id="Ee6-p2-gnR"/>
                             <constraint firstItem="iKO-KG-Rnw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HOA-Rb-ah0"/>
                             <constraint firstItem="aG6-aF-idN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Re5-Ja-BRy"/>
                             <constraint firstItem="aG6-aF-idN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="W38-KO-2Ou"/>
-                            <constraint firstItem="iKO-KG-Rnw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hD3-5X-Ivg"/>
+                            <constraint firstItem="iKO-KG-Rnw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aU9-vU-CO5"/>
+                            <constraint firstItem="iKO-KG-Rnw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="hD3-5X-Ivg"/>
                             <constraint firstItem="t2n-dZ-hyZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mxU-fs-G4h"/>
                             <constraint firstAttribute="trailing" secondItem="NjY-Uh-DNL" secondAttribute="trailing" id="p3d-nj-zI2"/>
                             <constraint firstItem="t2n-dZ-hyZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qlQ-gB-h0d"/>
